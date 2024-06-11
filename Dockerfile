@@ -5,7 +5,7 @@ FROM node:20
 WORKDIR /app
 
 # Copy the rest of the app
-COPY . ./app
+COPY ./* ./
 
 # Install dependencies
 
