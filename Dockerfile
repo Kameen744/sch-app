@@ -23,7 +23,7 @@ FROM oven/bun:latest
 WORKDIR /app
 
 # Copy the built application from the builder stage
-COPY --from=builder /app ./
+COPY --from=builder /app/build ./
 
 # Expose the port the app runs on
 EXPOSE 3000
