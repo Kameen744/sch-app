@@ -29,4 +29,4 @@ COPY --from=builder /app ./
 EXPOSE 3000
 
 # Command to start the application
-CMD ["bun", "run", "start"]
+CMD ["bun", "run", "index.js"]
